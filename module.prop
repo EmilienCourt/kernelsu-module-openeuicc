@@ -1,0 +1,7 @@
+id=kernelsu-module-openeuicc
+name=kernelsu-module-openeuicc
+version=v1.0.0
+versionCode=100
+author=Emilien Court
+description=A KernelSU module that installs OpenEUICC
+updateJson=https://raw.githubusercontent.com/EmilienCourt/kernelsu-module-openeuicc/main/update.json

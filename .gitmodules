@@ -1,3 +1,3 @@
 [submodule "OpenEUICC"]
 	path = OpenEUICC
-	url = https://github.com/EmilienCourt/OpenEUICC.git
+	url = https://gitea.angry.im/PeterCxy/OpenEUICC

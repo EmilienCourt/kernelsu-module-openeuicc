@@ -1,4 +1,4 @@
-name: Build a new release of the module
+name: Build and release a new version of the module
 
 on:
   push:

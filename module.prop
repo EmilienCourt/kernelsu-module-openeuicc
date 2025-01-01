@@ -1,7 +1,7 @@
 id=kernelsu-module-openeuicc
 name=kernelsu-module-openeuicc
-version=v1.0.0
-versionCode=100
+version=v250101
+versionCode=250101
 author=PeterCxy for OpenEUICC and Emilien Court for the KernelSU module
 description=A KernelSU module that installs OpenEUICC (https://gitea.angry.im/PeterCxy/OpenEUICC)
 updateJson=https://github.com/EmilienCourt/kernelsu-module-openeuicc/releases/latest/download/update.json

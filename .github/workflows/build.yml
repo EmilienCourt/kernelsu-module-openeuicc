@@ -19,10 +19,11 @@ jobs:
 
       - name: Set version
         run:  |
-          sed -i "s/version=v1.0.0/version=v${DATE}/" module.prop
-          sed -i "s/versionCode=100/versionCode=${DATE}/" module.prop
-          sed -i "s/\"version\": \"v1.0.0\",/\"version\": \"v${DATE}\",/" update.json
-          sed -i "s/\"versionCode\": \"100\",/\"versionCode\": \"${DATE}\",/" update.json
+          sed -i "s/version=v250101/version=v${DATE}/" module.prop
+          sed -i "s/versionCode=250101/versionCode=${DATE}/" module.prop
+          sed -i "s/\"version\": \"v250101\",/\"version\": \"v${DATE}\",/" update.json
+          sed -i "s/\"versionCode\": \"250101\",/\"versionCode\": \"${DATE}\",/" update.json
+          sed -i "s/\"zipUrl\": \"https:\/\/github.com\/EmilienCourt\/kernelsu-module-openeuicc\/releases\/download\/v250101\/module.zip\",/\"zipUrl\": \"https:\/\/github.com\/EmilienCourt\/kernelsu-module-openeuicc\/releases\/download\/v${DATE}\/module.zip\",/" update.json
       
       - name: Set up JDK 17
         uses: actions/setup-java@v4

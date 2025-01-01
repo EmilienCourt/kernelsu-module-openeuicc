@@ -1,6 +1,6 @@
 {
-    "version": "v1.0.0",
-    "versionCode": "100",
-    "zipUrl": "https://github.com/EmilienCourt/kernelsu-module-openeuicc/releases/latest/download/module.zip",
+    "version": "v250101",
+    "versionCode": "250101",
+    "zipUrl": "https://github.com/EmilienCourt/kernelsu-module-openeuicc/releases/download/v250101/module.zip",
     "changelog": "https://raw.githubusercontent.com/EmilienCourt/kernelsu-module-openeuicc/main/CHANGELOG.md"
 }

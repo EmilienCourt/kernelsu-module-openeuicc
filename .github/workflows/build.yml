@@ -40,7 +40,7 @@ jobs:
       - name: Release module.zip
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.PAT }}
           file: module.zip
           asset_name: module.zip
           tag: v${{ env.DATE }}
@@ -50,7 +50,7 @@ jobs:
       - name: Release update.json
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.PAT }}
           file: update.json
           asset_name: update.json
           tag: v${{ env.DATE }}
